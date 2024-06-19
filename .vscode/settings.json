@@ -30,6 +30,4 @@
         "venv.bak{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/21d522fc-622a-45f8-b60e-5241c3450059/resourceGroups/Prj_Taide/providers/Microsoft.Web/sites/HucenrotiaAssistantV2",
-    "appService.deploySubpath": "."
 }
