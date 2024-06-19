@@ -135,8 +135,11 @@ def handle_message(event):
 
         if event.message.text.lower() == "clear":
             answer = "Ok, I will clear our conversation"
+            for i in range(len(assistant_history)):
+                user_history[i] = ""
+                assistant_history[i] = ""
         else:
-            for i in range(len(assistant_history) - 1):
+            for i in range(len(assistant_history)):
                 user_history[i] = user_history[i + 1]
                 assistant_history[i] = assistant_history[i + 1]
 
